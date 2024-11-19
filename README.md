@@ -6,6 +6,7 @@ For easy GPU utilizaiton, we will use python within conda. Conda can be installe
 ### Create conda environment
 ```
 $ conda create -n esm2 # create conda virtual environment
+$ conda activate esm2
 $ conda install numpy
 $ conda install pytorch pytorch-cuda=11.8 -c pytorch -c nvidia # install pytorch with gpu support
 $ pip install fair-esm # install esm source with pip
