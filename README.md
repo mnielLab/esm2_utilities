@@ -15,11 +15,11 @@ $ pip install fair-esm # install esm source with pip
 $ git clone https://github.com/mnielLab/esm2_utilities.git
 ```
 ### Creating sequence encodings
-```
 Source code for encoding sequence batches is included in ./utils/esm2_encode.py
 A demo script for creating ESM2 encodings for sequences in an example fasta file is included in ./demo.poy
 To run this example,
+```
 $ python demo.py
+```
 This will create per residue encodings for all sequences in ./example_proteins/example_proteins.fasta.
 And save them in a .pickle formatted file, example_proteins_esm2enc.pickle
-```
