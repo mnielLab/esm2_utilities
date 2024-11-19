@@ -22,4 +22,4 @@ To run this example,
 $ python demo.py
 ```
 This will create per residue encodings for all sequences in ./example_proteins/example_proteins.fasta.
-And save them in a .pickle formatted file, example_proteins_esm2enc.pickle
+And save them in a .pickle formatted file, ./example_proteins_esm2enc.pickle
